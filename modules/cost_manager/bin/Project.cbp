@@ -134,6 +134,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/include/Costs.h">
+			<Option target="lib_cost_manager"/>
+		</Unit>
+		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/src/Costs.cpp">
+			<Option target="lib_cost_manager"/>
+		</Unit>
+		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_Costs.cpp">
+			<Option target="test_cost_manager"/>
+		</Unit>
 		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_main.cpp">
 			<Option target="test_cost_manager"/>
 		</Unit>

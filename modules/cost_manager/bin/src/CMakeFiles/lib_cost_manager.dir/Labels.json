@@ -1,6 +1,18 @@
 
 {
-	"sources" : [],
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/pi/univer/devtools-course-practice/modules/cost_manager/src/Costs.cpp",
+			"labels" : [ "cost_manager", "Library" ]
+		},
+		
+		{
+			"file" : "/home/pi/univer/devtools-course-practice/modules/cost_manager/include/Costs.h",
+			"labels" : [ "cost_manager", "Library" ]
+		}
+	],
 	"target" : 
 	{
 		"labels" : [ "cost_manager", "Library" ],

@@ -125,6 +125,33 @@ test_cost_manager/fast:
 	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f test/CMakeFiles/test_cost_manager.dir/build.make test/CMakeFiles/test_cost_manager.dir/build
 .PHONY : test_cost_manager/fast
 
+test_Costs.o: test_Costs.cpp.o
+
+.PHONY : test_Costs.o
+
+# target to build an object file
+test_Costs.cpp.o:
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f test/CMakeFiles/test_cost_manager.dir/build.make test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o
+.PHONY : test_Costs.cpp.o
+
+test_Costs.i: test_Costs.cpp.i
+
+.PHONY : test_Costs.i
+
+# target to preprocess a source file
+test_Costs.cpp.i:
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f test/CMakeFiles/test_cost_manager.dir/build.make test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.i
+.PHONY : test_Costs.cpp.i
+
+test_Costs.s: test_Costs.cpp.s
+
+.PHONY : test_Costs.s
+
+# target to generate assembly for a file
+test_Costs.cpp.s:
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f test/CMakeFiles/test_cost_manager.dir/build.make test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.s
+.PHONY : test_Costs.cpp.s
+
 test_main.o: test_main.cpp.o
 
 .PHONY : test_main.o
@@ -161,6 +188,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test_cost_manager"
+	@echo "... test_Costs.o"
+	@echo "... test_Costs.i"
+	@echo "... test_Costs.s"
 	@echo "... test_main.o"
 	@echo "... test_main.i"
 	@echo "... test_main.s"

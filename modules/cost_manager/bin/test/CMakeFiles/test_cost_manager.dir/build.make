@@ -57,9 +57,33 @@ include test/CMakeFiles/test_cost_manager.dir/progress.make
 # Include the compile flags for this target's objects.
 include test/CMakeFiles/test_cost_manager.dir/flags.make
 
+test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o: test/CMakeFiles/test_cost_manager.dir/flags.make
+test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o: ../test/test_Costs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o"
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o -c /home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_Costs.cpp
+
+test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_cost_manager.dir/test_Costs.cpp.i"
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_Costs.cpp > CMakeFiles/test_cost_manager.dir/test_Costs.cpp.i
+
+test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_cost_manager.dir/test_Costs.cpp.s"
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_Costs.cpp -o CMakeFiles/test_cost_manager.dir/test_Costs.cpp.s
+
+test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.requires:
+
+.PHONY : test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.requires
+
+test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.provides: test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.requires
+	$(MAKE) -f test/CMakeFiles/test_cost_manager.dir/build.make test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.provides.build
+.PHONY : test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.provides
+
+test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.provides.build: test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o
+
+
 test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o: test/CMakeFiles/test_cost_manager.dir/flags.make
 test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o: ../test/test_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o"
 	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_cost_manager.dir/test_main.cpp.o -c /home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_main.cpp
 
 test/CMakeFiles/test_cost_manager.dir/test_main.cpp.i: cmake_force
@@ -83,16 +107,18 @@ test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o.provides.build: test/CMake
 
 # Object files for target test_cost_manager
 test_cost_manager_OBJECTS = \
+"CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o" \
 "CMakeFiles/test_cost_manager.dir/test_main.cpp.o"
 
 # External object files for target test_cost_manager
 test_cost_manager_EXTERNAL_OBJECTS =
 
+test/test_cost_manager: test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o
 test/test_cost_manager: test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o
 test/test_cost_manager: test/CMakeFiles/test_cost_manager.dir/build.make
 test/test_cost_manager: src/libcost_manager.a
 test/test_cost_manager: test/CMakeFiles/test_cost_manager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_cost_manager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable test_cost_manager"
 	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_cost_manager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +126,7 @@ test/CMakeFiles/test_cost_manager.dir/build: test/test_cost_manager
 
 .PHONY : test/CMakeFiles/test_cost_manager.dir/build
 
+test/CMakeFiles/test_cost_manager.dir/requires: test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o.requires
 test/CMakeFiles/test_cost_manager.dir/requires: test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o.requires
 
 .PHONY : test/CMakeFiles/test_cost_manager.dir/requires

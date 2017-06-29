@@ -2,6 +2,9 @@
  cost_manager
  Test
 # Source files and their labels
+/home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_Costs.cpp
+ cost_manager
+ Test
 /home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_main.cpp
  cost_manager
  Test

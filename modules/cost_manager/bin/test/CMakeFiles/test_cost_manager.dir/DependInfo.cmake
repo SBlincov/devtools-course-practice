@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_Costs.cpp" "/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o"
   "/home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_main.cpp" "/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/CMakeFiles/test_cost_manager.dir/test_main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

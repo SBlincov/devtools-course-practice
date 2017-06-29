@@ -2,3 +2,9 @@
  cost_manager
  Library
 # Source files and their labels
+/home/pi/univer/devtools-course-practice/modules/cost_manager/src/Costs.cpp
+ cost_manager
+ Library
+/home/pi/univer/devtools-course-practice/modules/cost_manager/include/Costs.h
+ cost_manager
+ Library

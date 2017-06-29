@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test_cost_manager.dir/test_Costs.cpp.o"
   "CMakeFiles/test_cost_manager.dir/test_main.cpp.o"
   "test_cost_manager.pdb"
   "test_cost_manager"

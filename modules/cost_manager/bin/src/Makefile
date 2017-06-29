@@ -125,6 +125,33 @@ lib_cost_manager/fast:
 	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f src/CMakeFiles/lib_cost_manager.dir/build.make src/CMakeFiles/lib_cost_manager.dir/build
 .PHONY : lib_cost_manager/fast
 
+Costs.o: Costs.cpp.o
+
+.PHONY : Costs.o
+
+# target to build an object file
+Costs.cpp.o:
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f src/CMakeFiles/lib_cost_manager.dir/build.make src/CMakeFiles/lib_cost_manager.dir/Costs.cpp.o
+.PHONY : Costs.cpp.o
+
+Costs.i: Costs.cpp.i
+
+.PHONY : Costs.i
+
+# target to preprocess a source file
+Costs.cpp.i:
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f src/CMakeFiles/lib_cost_manager.dir/build.make src/CMakeFiles/lib_cost_manager.dir/Costs.cpp.i
+.PHONY : Costs.cpp.i
+
+Costs.s: Costs.cpp.s
+
+.PHONY : Costs.s
+
+# target to generate assembly for a file
+Costs.cpp.s:
+	cd /home/pi/univer/devtools-course-practice/modules/cost_manager/bin && $(MAKE) -f src/CMakeFiles/lib_cost_manager.dir/build.make src/CMakeFiles/lib_cost_manager.dir/Costs.cpp.s
+.PHONY : Costs.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -134,6 +161,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lib_cost_manager"
+	@echo "... Costs.o"
+	@echo "... Costs.i"
+	@echo "... Costs.s"
 .PHONY : help
 
 
