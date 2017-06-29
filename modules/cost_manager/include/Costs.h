@@ -6,6 +6,9 @@
 //  Copyright © 2017 Блинцов Сергей. All rights reserved.
 //
 
+#ifndef MODULES_COST_MANAGER_INCLUDE_COST_MANAGER_H_
+#define MODULES_COST_MANAGER_INCLUDE_COST_MANAGER_H_
+
 #include <stdlib.h>
 #include <fstream>
 #include <iostream>
@@ -24,6 +27,7 @@ class Costs {
     for (int j = 0; j < 5; j++)  // Initialize costs
       for (int i = 0; i < 1000; i++) records[j][i] = 0;
   }
+  Costs(const Costs &v);
   void addCost(int groupID, int cost);
   void showCostsForGroup(int groupID);
   void showAllCosts();
@@ -34,3 +38,5 @@ class Costs {
 
  private:
 };
+
+#endif
