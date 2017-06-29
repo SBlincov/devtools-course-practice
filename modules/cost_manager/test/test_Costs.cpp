@@ -6,5 +6,5 @@ TEST(SBlincov_CostManager, MakeNewList) {
     // Arrange
     // Act
     // Assert
-    ASSERT_NO_FATAL_FAILURE(Costs::Costs check(1000));
+    ASSERT_NO_FATAL_FAILURE(Costs check(1000));
 }
