@@ -18,6 +18,8 @@ using namespace std;
 
 class Costs {
 public:
+    int quantityOfRecords = 0;
+    int lastRecord = 0;
     int **records; // list of costs
     Costs(int qRecords) {
         quantityOfRecords = qRecords; // Make a global
@@ -40,8 +42,6 @@ public:
         return quantityOfRecords;
     }
 private:
-    int quantityOfRecords = 0;
-    int lastRecord = 0;
 };
 
 
