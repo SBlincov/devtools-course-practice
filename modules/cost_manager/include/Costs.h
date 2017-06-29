@@ -16,7 +16,7 @@
 #include <string>
 
 class Costs {
-  public:
+ public:
   int quantityOfRecords = 0;
   int lastRecord = 0;
   int** records;  // list of costs
