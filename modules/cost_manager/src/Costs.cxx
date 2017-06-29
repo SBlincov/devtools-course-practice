@@ -14,7 +14,7 @@
 int **records;  // list of costs
 void Costs::addCost(int groupID, int cost) {
   lastRecord = getLastCost(groupID);
-  if (lastRecord != quantityOfRecords){
+  if (lastRecord != quantityOfRecords) {
     records[groupID][lastRecord] = cost;
   }  else {
     throw "List of costs are overflow";
