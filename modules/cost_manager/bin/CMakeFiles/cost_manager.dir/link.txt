@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/cost_manager.dir/main.cpp.o  -o cost_manager -rdynamic 

@@ -6,8 +6,8 @@
 //  Copyright © 2017 Блинцов Сергей. All rights reserved.
 //
 
-#ifndef MODULES_COST_MANAGER_INCLUDE_COST_MANAGER_H_
-#define MODULES_COST_MANAGER_INCLUDE_COST_MANAGER_H_
+#ifndef MODULES_COST_MANAGER_INCLUDE_COSTS_H_
+#define MODULES_COST_MANAGER_INCLUDE_COSTS_H_
 
 #include <stdlib.h>
 #include <fstream>
@@ -39,4 +39,4 @@ class Costs {
  private:
 };
 
-#endif
+#endif  // MODULES_COST_MANAGER_INCLUDE_COSTS_H_
