@@ -1,0 +1,4 @@
+# Target labels
+ cost_manager
+ Library
+# Source files and their labels

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_cost_manager">
+				<Option output="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/libcost_manager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/univer/devtools-course-practice/modules/cost_manager/."/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/4.9/."/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 lib_cost_manager"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_cost_manager/fast">
+				<Option output="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/libcost_manager.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/univer/devtools-course-practice/modules/cost_manager/."/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/4.9/."/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 lib_cost_manager/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cost_manager">
+				<Option output="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/test_cost_manager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/univer/devtools-course-practice/modules/cost_manager/."/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/4.9/."/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 test_cost_manager"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_cost_manager/fast">
+				<Option output="/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/test_cost_manager" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pi/univer/devtools-course-practice/modules/cost_manager/."/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/4.9/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/4.9"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/4.9/."/>
+					<Add directory="/usr/include/c++/4.9/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 test_cost_manager/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/pi/univer/devtools-course-practice/modules/cost_manager/bin/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/test/test_main.cpp">
+			<Option target="test_cost_manager"/>
+		</Unit>
+		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/pi/univer/devtools-course-practice/modules/cost_manager/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

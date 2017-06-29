@@ -1,0 +1,9 @@
+
+{
+	"sources" : [],
+	"target" : 
+	{
+		"labels" : [ "cost_manager", "Library" ],
+		"name" : "lib_cost_manager"
+	}
+}
