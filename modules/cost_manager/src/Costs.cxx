@@ -10,34 +10,33 @@
 #include <iostream>
 #include <sstream>
 #include <string>
-using namespace std;
 
 int **records;  // list of costs
 void Costs::addCost(int groupID, int cost) {
   lastRecord = getLastCost(groupID);
-  if (lastRecord != quantityOfRecords)
+  if (lastRecord != quantityOfRecords){
     records[groupID][lastRecord] = cost;
-  else {
+  }  else {
     throw "List of costs are overflow";
   }
 }
 void Costs::showCostsForGroup(int groupID) {
   int i = 1;
   while (records[groupID][i] != 0) {
-    cout << records[groupID][i] << endl;
+    std::cout << records[groupID][i] << endl;
     i++;
   }
 }
 void Costs::showAllCosts() {
-  cout << "Category 0: \n \n";
+  std::cout << "Category 0: \n \n";
   showCostsForGroup(0);
-  cout << "Category 1: \n \n";
+  std::cout << "Category 1: \n \n";
   showCostsForGroup(1);
-  cout << "Category 2: \n \n";
+  std::cout << "Category 2: \n \n";
   showCostsForGroup(2);
-  cout << "Category 3: \n \n";
+  std::cout << "Category 3: \n \n";
   showCostsForGroup(3);
-  cout << "Category 4: \n \n";
+  std::cout << "Category 4: \n \n";
   showCostsForGroup(4);
 }
 int Costs::getLastCost(int groupID) {
