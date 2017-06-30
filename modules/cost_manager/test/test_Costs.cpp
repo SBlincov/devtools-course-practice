@@ -4,8 +4,7 @@
 
 #include "include/Costs.h"
 
-TEST(Costs,
-    Set_length_list_less_1) {
+TEST(Costs, Set_length_list_less_1) {
     // Arrange
     // Act+Assert
     ASSERT_ANY_THROW(Costs test(0));
