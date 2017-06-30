@@ -98,7 +98,7 @@ std::string Application::operator()(int argc, const char** argv) {
         return str;
     }
 
-    int mon[][4] = { {1 , 5, 3, 1} , 
+    int mon[][4] = { {1 , 5, 3, 1} ,
 { 1, 4, 2, 1} };
 
     TPolinom Pol(mon , 2);
