@@ -11,6 +11,7 @@
 
 #include "include/Head.h"
 #include "include/Monom.h"
+#include "include/Polinom.h"
 #include "include/application.h"
 
 Application::Application() : message_("") {}
