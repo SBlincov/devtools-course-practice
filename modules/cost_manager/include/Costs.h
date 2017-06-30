@@ -21,6 +21,8 @@ class Costs {
   int lastRecord = 0;
   int** records;  // list of costs
   explicit Costs(int qRecords) {
+    if (qRecords < 1)
+      throw Number of records should be >0;
     quantityOfRecords = qRecords;  // Make a global
     records = new int*[5];  // Memory allocation
     for (int i = 0; i < qRecords; i++) records[i] = new int[qRecords];
