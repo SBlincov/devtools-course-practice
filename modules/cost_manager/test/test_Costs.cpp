@@ -3,6 +3,6 @@
 #include <gtest/gtest.h>
 #include "include/Costs.h"
 
-TEST(Costs, can_create_costs list) {
+TEST(Costs, can_create_costs_list) {
     ASSERT_NO_THROW(Costs example(1000));
 }
