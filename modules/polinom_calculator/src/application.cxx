@@ -102,7 +102,7 @@ std::string Application::operator()(int argc, const char** argv) {
     int mon[][4] = { {1 , 5, 3, 1} ,
 { 1, 4, 2, 1} };
 
-    Polinom::Polinom* Pol = new TPolinom(mon, 2);
+    Polinom::Polinom* Pol = new Polinom(mon, 2);
 
     return args[0];
 }
