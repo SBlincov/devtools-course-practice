@@ -89,14 +89,19 @@ std::string Application::operator()(int argc, const char** argv) {
         return message_;
     }
 
-    //  std::vector<std::string> args;
-/*
+    std::vector<std::string> args;
+
     try {
         args = ParseArguments(argc, argv);
     }
     catch(std::string& str) {
         return str;
     }
-*/
+
+    int mon[][4] = { {1 , 5, 3, 1} , 
+{ 1, 4, 2, 1} };
+
+    TPolinom Pol(mon , 2);
+
     return "Check";
 }
