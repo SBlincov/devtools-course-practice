@@ -89,7 +89,7 @@ std::string Application::operator()(int argc, const char** argv) {
         return message_;
     }
 
-    std::vector<std::string> args;
+    //  std::vector<std::string> args;
 
     try {
         args = ParseArguments(argc, argv);
