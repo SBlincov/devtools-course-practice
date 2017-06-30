@@ -23,7 +23,7 @@ void Costs::addCost(int groupID, int cost) {
 void Costs::showCostsForGroup(int groupID) {
   int i = 1;
   while (records[groupID][i] != 0) {
-    std::cout << records[groupID][i] << endl;
+    std::cout << records[groupID][i] << std::endl;
     i++;
   }
 }
