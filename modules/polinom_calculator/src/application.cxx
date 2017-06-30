@@ -90,11 +90,13 @@ std::string Application::operator()(int argc, const char** argv) {
     }
 
     //  std::vector<std::string> args;
-
+/*
     try {
         args = ParseArguments(argc, argv);
     }
     catch(std::string& str) {
         return str;
     }
+*/
+    return "Check";
 }
