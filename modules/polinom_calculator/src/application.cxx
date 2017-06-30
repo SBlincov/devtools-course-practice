@@ -103,5 +103,5 @@ std::string Application::operator()(int argc, const char** argv) {
 
     TPolinom Pol(mon , 2);
 
-    return "Check";
+    return args[0];
 }
