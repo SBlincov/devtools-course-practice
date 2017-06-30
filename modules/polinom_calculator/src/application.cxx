@@ -102,8 +102,8 @@ std::string Application::operator()(int argc, const char** argv) {
     int mon[][4] = { {1 , 5, 3, 1} ,
 { 1, 4, 2, 1} };
 
-    Polinom::Polinom Pol1(mon , 2);
-    Polinom::Polinom Pol2(mon , 2);
+    Polinom Pol1(mon , 2);
+    Polinom Pol2(mon , 2);
 
     std::cout << Pol1 == Pol2;
 
