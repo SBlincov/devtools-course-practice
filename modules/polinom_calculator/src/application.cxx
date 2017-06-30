@@ -9,8 +9,8 @@
 #include <fstream>
 #include <vector>
 
-#include "Head.h"
-#include "Monom.h"
+#include "include/Head.h"
+#include "include/Monom.h"
 #include "include/application.h"
 
 Application::Application() : message_("") {}
