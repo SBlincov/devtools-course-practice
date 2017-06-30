@@ -2,7 +2,7 @@
 
 #include <gtest/gtest.h>
 
-#include "include/credit_calculator.h"
+#include "include/Costs.h"
 
 TEST(Costs,
     Set_length_list_less_1) {
