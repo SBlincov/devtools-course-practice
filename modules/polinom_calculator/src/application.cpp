@@ -18,8 +18,7 @@ Application::Application() : message_("") {}
 void Application::Help(const char* appname, const char* message) {
     message_ =
         std::string(message) +
-          "Спасибо что выбрали калькулятор полиномов!\n\n" +
-          "Чтобы задать полином, необходимо создать массив : int mon[][4] = { {coeff1 , IndX1, IndY1, IndZ1} , { coeff2, IndX2, IndY2, IndZ2} };";
+          "Спасибо что выбрали калькулятор полиномов!\n\n";
 }
 
 bool IsBeginningOfName(const char* arg) {
@@ -33,7 +32,6 @@ bool IsEndOfName(const char* arg) {
     int i = 0;
     while (arg[i] != '\0')
         ++i;
-
     if (arg[i - 1] == '>')
         return true;
     else
@@ -99,5 +97,4 @@ std::string Application::operator()(int argc, const char** argv) {
     catch(std::string& str) {
         return str;
     }
-
 }
