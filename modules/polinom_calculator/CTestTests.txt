@@ -1,3 +1,21 @@
 #############################################
 ##### Testing
 #############################################
+
+set(prefix "${MODULE}")
+
+add_test(
+    NAME ${prefix}_can_Indicate_Incorrect_Beginning
+    COMMAND ${APPLICATION} number polinom>
+)
+set_tests_properties (${prefix}_can_Indicate_Incorrect_Beginning PROPERTIES
+    PASS_REGULAR_EXPRESSION "Wrong arguments format!"
+    LABELS "${MODULE}")
+
+add_test(
+    NAME ${prefix}_can_Indicate_Incorrect_End
+    COMMAND ${APPLICATION} <number polinom
+)
+set_tests_properties (${prefix}_can_Indicate_Incorrect_End PROPERTIES
+    PASS_REGULAR_EXPRESSION "Wrong arguments format!"
+    LABELS "${MODULE}")
