@@ -101,15 +101,15 @@ std::string Application::operator()(int argc, const char** argv) {
 
     int coeff1, indX, indY, indZ, number, coeff2, indX2, indY2, indZ2;
     std::string::size_type sz;
-    number = std::stoi (args[0], &sz);
-    coeff1 = std::stoi (args[1], &sz);
-    indX = std::stoi (args[2], &sz);
-    indY = std::stoi (args[3], &sz);
-    indZ = std::stoi (args[4], &sz);
-    coeff2 = std::stoi (args[5], &sz);
-    indX2 = std::stoi (args[6], &sz);
-    indY2 = std::stoi (args[7], &sz);
-    indZ2 = std::stoi (args[8], &sz);
+    number = std::stoi(args[0], &sz);
+    coeff1 = std::stoi(args[1], &sz);
+    indX = std::stoi(args[2], &sz);
+    indY = std::stoi(args[3], &sz);
+    indZ = std::stoi(args[4], &sz);
+    coeff2 = std::stoi(args[5], &sz);
+    indX2 = std::stoi(args[6], &sz);
+    indY2 = std::stoi(args[7], &sz);
+    indZ2 = std::stoi(args[8], &sz);
 
     int mon[][4] = { {coeff1 , indX, indY, indZ} ,
 { coeff2, indX2, indY2, indZ2} };
