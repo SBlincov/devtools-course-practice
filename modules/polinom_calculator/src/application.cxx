@@ -99,11 +99,22 @@ std::string Application::operator()(int argc, const char** argv) {
         return str;
     }
 
-    int mon[][4] = { {1 , 5, 3, 1} ,
-{ 1, 4, 2, 1} };
+    int coeff1, indX, indY, indZ, number, coeff2, indX2, indY2, indZ2;
+    number = args[0];
+    coeff1 = args[1];
+    indX = args[2];
+    indY = args[3];
+    indZ = args[4];
+    coeff2 = args[5];
+    indX2 = args[6];
+    indY2 = args[7];
+    indZ2 = args[8];
+
+    int mon[][4] = { {coeff1 , indX, indY, indZ} ,
+{ coeff2, indX2, indY2, indZ2} };
 
     Polinom Pol1(mon , 2);
-    Polinom Res = Pol1 * 2;
+    Polinom Res = Pol1 * number;
 
     Res = Res * 2;
 
