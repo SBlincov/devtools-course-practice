@@ -115,9 +115,5 @@ std::string Application::operator()(int argc, const char** argv) {
 { coeff2, indX2, indY2, indZ2} };
 
     Polinom Pol1(mon , 2);
-    Polinom Res = Pol1 * number;
-
-    Res = Res * 2;
-
-    return args[0];
+    return Pol1 * number;
 }
