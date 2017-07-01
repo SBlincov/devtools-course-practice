@@ -12,7 +12,7 @@
 #include <string>
 
 int **records_;  // list of costs
-explicit Costs::Costs(int qRecords) {
+Costs::Costs(int qRecords) {
   if (qRecords < 1)
       throw(std::string)"Number of records should be > 0";
   quantityOfRecords_ = qRecords;  // Make a global
@@ -49,7 +49,7 @@ void Costs::showAllCosts() {
   showCostsForGroup(4);
 }
 int Costs::getLastCost(int groupID) {
-  for (int i = 1; i < quantityOfRecords; i++)
+  for (int i = 1; i < quantityOfRecords_; i++)
     if (records_[groupID][i] == 0) return i;
   return 0;
 }
