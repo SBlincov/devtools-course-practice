@@ -12,6 +12,15 @@
 #include <string>
 
 int **records;  // list of costs
+explicit Costs::Costs(int qRecords) {
+  if (qRecords < 1)
+      throw(std::string)"Number of records should be > 0";
+  quantityOfRecords = qRecords;  // Make a global
+  records = new int*[5];  // Memory allocation
+  for (int i = 0; i < qRecords; i++) records[i] = new int[qRecords];
+  for (int j = 0; j < 5; j++)  // Initialize costs
+    for (int i = 0; i < 1000; i++) records[j][i] = 0;
+}
 void Costs::addCost(int groupID, int cost) {
   lastRecord = getLastCost(groupID);
   if (lastRecord != quantityOfRecords) {
