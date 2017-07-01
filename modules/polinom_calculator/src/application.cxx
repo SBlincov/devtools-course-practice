@@ -84,7 +84,7 @@ Application::ParseArguments(int argc, const char** argv) {
     return args;
 }
 
-Polinom Application::operator()(int argc, const char** argv) {
+std::string Application::operator()(int argc, const char** argv) {
     if (argc == 1) {
         Help(argv[0]);
         return message_;
@@ -115,5 +115,7 @@ Polinom Application::operator()(int argc, const char** argv) {
 { coeff2, indX2, indY2, indZ2} };
 
     Polinom Pol1(mon , 2);
-    return Pol1 * number;
+    Polinom Res = Pol1 * number;
+
+    return "Result:";
 }
