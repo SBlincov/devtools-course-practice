@@ -28,9 +28,9 @@ class Costs {
   int getQuantityOfRecords() const { return quantityOfRecords; }
 
  private:
-  int quantityOfRecords = 0;
-  int lastRecord = 0;
-  int** records;  // list of costs
+  int quantityOfRecords_ = 0;
+  int lastRecord_ = 0;
+  int** records_;  // list of costs
 };
 
 #endif  // MODULES_COST_MANAGER_INCLUDE_COSTS_H_
