@@ -13,11 +13,11 @@
 
 #Поличном задаётся следущим образом :
 
-	TPolinom Pol(mon , size); // size это число мономов в полиноме
+	Polinom Pol(mon , size); // size это число мономов в полиноме
 			
 			OR
 
-	TPolinom* Pol = new TPolinom(mon,size);
+	Polinom* Pol = new Polinom(mon,size);
 
 #Для Полиномов доступны следущие операции
 
