@@ -84,7 +84,7 @@ Application::ParseArguments(int argc, const char** argv) {
     return args;
 }
 
-std::string Application::operator()(int argc, const char** argv) {
+Polinom Application::operator()(int argc, const char** argv) {
     if (argc == 1) {
         Help(argv[0]);
         return message_;
