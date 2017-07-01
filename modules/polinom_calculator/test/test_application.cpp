@@ -54,3 +54,20 @@ TEST_F(ApplicationTest, Application_Indicates_Incorrect_End) {
 
     Assert("Wrong arguments format!");
 }
+
+TEST_F(ApplicationTest, Application_Indicates_Two_Beginnings) {
+    vector<string> args = { "<number", "<polinom>" };
+
+    Act(args);
+
+    Assert("Wrong arguments format!");
+}
+
+TEST_F(ApplicationTest, Application_Indicates_Two_Ends) {
+    vector<string> args = { "<example>", "list>" };
+
+    Act(args);
+
+    Assert("Wrong arguments format!");
+}
+
