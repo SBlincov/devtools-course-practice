@@ -55,14 +55,6 @@ TEST_F(ApplicationTest, Application_Indicates_Incorrect_End) {
     Assert("Wrong arguments format!");
 }
 
-TEST_F(ApplicationTest, Application_can_multiply_number_and_polinom) {
-    vector<string> args = {"2", "1", "5", "4", "1", "1", "4", "3", "2"};
-
-    Act(args);
-
-    Assert("Result:");
-}
-
 TEST_F(ApplicationTest, Application_Indicates_Incorrect_make_polinom) {
     vector<string> args = {"lol", "1", "5", "4", "1", "1", "4", "3", "2"};
 
