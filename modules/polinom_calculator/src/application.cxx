@@ -103,10 +103,8 @@ std::string Application::operator()(int argc, const char** argv) {
 { 1, 4, 2, 1} };
 
     Polinom Pol1(mon , 2);
-    Polinom Res(mon , 2);
+    Polinom Res = Pol1 * 2;
 
-    Res = Pol1 * 2;
-    
     Res = Res * 2;
 
     return args[0];
