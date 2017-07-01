@@ -24,8 +24,8 @@ class Costs {
   void showAllCosts();
   int getLastCost(int groupID);
 
-  int getLastRecord() const { return lastRecord; }
-  int getQuantityOfRecords() const { return quantityOfRecords; }
+  int getLastRecord() const { return lastRecord_; }
+  int getQuantityOfRecords() const { return quantityOfRecords_; }
 
  private:
   int quantityOfRecords_ = 0;
