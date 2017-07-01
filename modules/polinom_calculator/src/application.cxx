@@ -19,7 +19,12 @@ Application::Application() : message_("") {}
 void Application::Help(const char* appname, const char* message) {
     message_ =
         std::string(message) +
-          "Спасибо что выбрали калькулятор полиномов!\n\n";
+          "Спасибо что выбрали калькулятор полиномов!\n\n" +
+          "Чтобы умножить полином на число
+          , введите аргументы в следующем формате:\n\n" +
+          " \"<Множитель>\" " + " \"<Коэфф. 1 монома>\" " + " \"<indX>\" " +
+          " \"<indY>\" " + " \"<indZ>\" " + " \"<Коэфф. 2 монома>\" " +
+          " \"<indX2>\" " + " \"<indY2>\" " + " \"<indZ2>\" ";
 }
 
 bool IsBeginningOfName(const char* arg) {
