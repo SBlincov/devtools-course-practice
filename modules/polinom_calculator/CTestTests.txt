@@ -21,14 +21,6 @@ set_tests_properties (${prefix}_can_Indicate_Incorrect_End PROPERTIES
     LABELS "${MODULE}")
 
 add_test(
-    NAME ${prefix}_Indicates_Help
-    COMMAND ${APPLICATION}
-)
-set_tests_properties_(${prefix)_Indicates_Help PROPERTIES
-    PASS_REGULAR_EXPRESSION "\n"
-    LABELS "${MODULE}")
-
-add_test(
     NAME ${prefix}_can_multiply_number_and_polinom
     COMMAND ${APPLICATION} 2 1 5 4 1 1 4 3 2
 )
