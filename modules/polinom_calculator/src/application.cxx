@@ -106,7 +106,9 @@ std::string Application::operator()(int argc, const char** argv) {
     Polinom Pol2(mon , 2);
 
     bool result;
-    result = Pol1 == Pol2;
+    result = (Pol1 == Pol2);
+
+    if (result) std::cout << "even";
 
     return args[0];
 }
