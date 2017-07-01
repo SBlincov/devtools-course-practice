@@ -27,3 +27,19 @@ add_test(
 set_tests_properties_(${prefix)_can_multiply_number_and_polinom
     PASS_REGULAR_EXPRESSION "Result:"
     LABELS "${MODULE}")
+
+add_test(
+    NAME ${prefix}_Indicates_Incorrect_make_polinom
+    COMMAND ${APPLICATION} lol 1 5 4 1 1 4 3 2
+)
+set_tests_properties_(${prefix)_Indicates_Incorrect_make_polinom
+    PASS_REGULAR_EXPRESSION "Wrong arguments format!"
+    LABELS "${MODULE}")
+
+add_test(
+    NAME ${prefix}_Indicates_Help
+    COMMAND ${APPLICATION}
+)
+set_tests_properties_(${prefix)_Indicates_Help PROPERTIES
+    PASS_REGULAR_EXPRESSION "Спасибо что выбрали калькулятор полиномов!\n\n"
+    LABELS "${MODULE}")
