@@ -60,7 +60,7 @@ TEST_F(ApplicationTest, Application_Indicates_Help) {
     
     Act(args);
     
-    Assert("Спасибо что выбрали калькулятор полиномов!");
+    Assert("\n");
 }
 
 TEST_F(ApplicationTest, Application_can_multiply_number_and_polinom) {
